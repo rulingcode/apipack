@@ -1,0 +1,22 @@
+name: apipack
+description: "Api Package"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  intl: ^0.20.1
+  collection: ^1.16.0
+  meta: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
