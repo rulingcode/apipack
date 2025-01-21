@@ -1,7 +1,7 @@
 name: apipack
 description: "Api Package"
-version: 0.0.2
-homepage:
+publish_to: "https://pub.dev"
+version: 0.0.3
 
 environment:
   sdk: ^3.6.0

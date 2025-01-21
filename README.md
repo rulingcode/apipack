@@ -15,4 +15,4 @@ To use ApiPack in your project, add it to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  apipack: ^0.0.2
+  apipack: ^0.0.3
