@@ -1,17 +1,13 @@
-
-
 import 'package:apipack/api.dart';
 
 class CoreApi {
-  CoreApi({required this.host});
-
   String? token;
   String? userId;
   final String host;
-  final Duration retryDelay = Duration(milliseconds: 100);
+  final Duration retryDelay = Duration(milliseconds: 2000);
   late StartApi start;
 
-  void initializeApi() {
+  CoreApi({required this.host}) {
     start = StartApi(ApiClient(basePath: host));
   }
 
